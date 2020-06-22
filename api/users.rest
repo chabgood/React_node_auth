@@ -1,0 +1,12 @@
+POST http://localhost:3000/users/signUp
+Content-Type: application/json
+
+{
+  "email": "chabgood@gmail.com",
+  "password": "moo"
+  
+}
+###
+
+GET http://localhost:3000/secret
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIyLCJpYXQiOjE1OTI4MDE3NDAsImV4cCI6MTU5MjgwNTM0MH0.JhiCQe1NAmjZTUCJgXLwlr8N7BDcVOAqtDXnAWc8Bmc
