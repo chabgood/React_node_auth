@@ -10,3 +10,5 @@ app.use(bodyParser.json())
 app.use('/users', require('./routes/users'))
 app.listen(port)
 console.log(`server listening on port ${port}`)
+
+module.exports = app
