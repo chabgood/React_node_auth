@@ -10,3 +10,11 @@ Content-Type: application/json
 
 GET http://localhost:3000/users/secret
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIzLCJpYXQiOjE1OTI4NzI1MDgsImV4cCI6MTU5Mjg3NjEwOH0.1HrKseDwcR-dePc8cs41ZsCvGSuZl6mpcbB8Tj9dIfU
+###
+
+POST http://localhost:3000/users/oauth/google HTTP/1.1
+Content-Type: application/json
+
+{
+  "access_token": "ya29.a0AfH6SMCwM2aK7Er323WYS3NMIoGKC1KUNlmJwOpZfVF0-mmPvVbPbOITrFdDB74D9Vmgj6UubEIROepanUBEpUYLwdLVWE9wTxuKPY-3sUhzuuURx0DZ2Kav5NfUHttHmNqCBwjh80arWpQlgJxfzNjrUpqw9C9o_to"
+}
